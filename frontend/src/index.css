@@ -1,0 +1,270 @@
+
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.content{
+  min-height: 100vh;
+  background-color:rgb(249, 243, 255);
+}
+.footer {
+  margin-top: auto;
+  background-color: rgb(0, 0, 0);
+}
+.navbar{
+  background-color:rgb(222, 211, 232) !important;
+}
+/*login-page ip*/
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  margin: 0;
+}
+.login-page {
+  background: url('./assets/background.jpg') repeat center/cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.login-form {
+  width: 300px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 0.5s ease-in-out;
+}
+.heading {
+  color: rgb(78, 0, 67);
+  font-size: 24px;
+  margin-left: auto;
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
+.heading2 {
+  color: rgb(114, 7, 100);
+  font-size: 24px;
+
+  font-weight:bold;
+}
+
+.username{
+  color: rgb(114, 7, 100);
+  font-size: 16px;
+
+  font-weight:bold;
+}
+.custom-button {
+  background-color: rgba(128, 0, 128, 0.856);
+  color: white;
+  border-radius: 5px;
+  width:120px;
+  height: 33px;
+  border: none;
+}
+.nav-link{
+  color:rgb(155, 106, 202) !important;
+  font-size: medium;
+  font-weight: 600;
+}
+.link{
+  color:blueviolet;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/*--------*/
+.register-page{
+  display: flex;
+   align-items:center;
+   justify-content:center;
+   height: 90vh;
+}
+/*navbar*/
+.logout-btn {
+  background-color: purple;
+  color: white;
+  border: 1px solid white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.navbar-brand {
+  color:purple;
+  font-weight:bolder;
+  height:40px;
+  margin:auto 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+  justify-content: center;
+   /* Ensure the container takes up the full viewport height */
+}
+
+.logout-btn:hover {
+  background-color: white;
+  color: purple;
+}
+
+/*transaction page*/
+.filters{
+  color:blueviolet;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:15px 20px;
+  
+}
+.filter-box{
+  box-shadow:2px 2px 2px  rgba(121, 113, 113, 0.677);
+}
+/* antd icons*/
+
+.switch-icon{
+  box-shadow:2px 2px 2px  rgba(121, 113, 113, 0.677);
+  border-radius: 5px;
+  padding: 10px 15px;
+  color:rgb(95, 17, 96);
+}
+.anticon svg{
+  font-size:20px; 
+  cursor: pointer;
+
+}
+.active-icon{
+  color:rgb(95, 17, 96);
+  
+}
+.inactive-icon{
+  color:rgb(178, 101, 185);
+}
+
+.table-container{ 
+   display: flexbox;
+  justify-content: center;
+  align-items: center;
+  
+ 
+     /* Adjust the maximum width as needed */
+   
+  
+  
+}
+.small-card {
+  max-width: 200px;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+/* Optionally, add this style for better visibility of the progress circles */
+
+
+/* Add style for small cards */
+.small-card {
+  width: 100%;
+}
+.analytics-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-left:50px;
+}
+
+.total-transactions,
+.total-turnover,
+.category-wise-income,
+.category-wise-expense {
+  width: 100%;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom:auto 16px;
+  width:500px;
+  box-shadow:2px 2px 2px  rgba(121, 113, 113, 0.677);
+}
+
+.card-header {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.card-body {
+  margin-bottom: 8px;
+}
+/*profile section */
+/* Profile.css */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+   /* Purple background color */
+}
+
+.profile-box {
+  /*background-color: #848884;  Light green box color */
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  box-shadow:3px 3px 3px  rgba(67, 64, 66, 0.677);
+}
+
+.profile-heading {
+  font-size: 24px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+ 
+}
+
+.profile-info {
+  font-size: 16px;
+  margin-bottom: 10px;
+  
+}
+
+.edit-button {
+  margin-top: 20px;
+  background-color: blueviolet;
+  color:rgb(232, 221, 221);
+  justify-content: space-between;
+}
+.back-button {
+  margin-top: 20px;
+  margin-left: 150px;
+  background-color: blueviolet;
+  color:rgb(232, 221, 221);
+  justify-content: end;
+  align-items: end;
+}
+
+
+
+/* Add more styles as needed */
+
