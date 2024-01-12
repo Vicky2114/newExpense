@@ -16,7 +16,7 @@ app.use(express.json());
 app.use(cors());
 
 //routes
-app.use('/api/v1/users',require('./routes/userRoutes'))
+app.use('/api/v1/users',require('./routes/userRoutes'));
 app.use('/api/v1/transactions',require('./routes/transactionRoutes'));
 //statics files
 app.use(express.static(path.join(__dirname,'./frontend/build')))
